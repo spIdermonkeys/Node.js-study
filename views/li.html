@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="text">
+
+</ul>
+</body>
+<script>
+    var ul = document.getElementById("text");
+    var str = "";
+    for(var i = 0; i < 100; i++){
+        str += "<li>第"+ (i+1) +"个li</li>"
+    }
+    ul.innerHTML = str;
+
+
+</script>
+</html>
